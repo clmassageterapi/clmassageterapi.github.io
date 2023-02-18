@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet">
+    <link href="./resources/css/style.css" rel="stylesheet">
+  </head>
+  <body style="background-color: #F4F1F1;">
+    <style>
+      #intro {
+        background-image: url("./resources/images/background-flower.jpg");
+        height: 50vh;
+      }
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #intro {
+          margin-top: -58.59px;
+        }
+      }
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
+    </style>
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark secondary-color" style="z-index: 2000;">
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+          <strong>CLM</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbar"
+          aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#intro">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
+                target="_blank">Algo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://mdbootstrap.com/docs/standard/" target="_blank">Algo2</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav d-flex flex-row">
+            <!-- Icons -->
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://www.facebook.com/mdbootstrap" rel="nofollow" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="flag-united-kingdom flag m-0"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#"
+                    ><i class="flag-united-kingdom flag"></i>English
+                    <i class="fa fa-check text-success ms-2"></i
+                  ></a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#"><i class="flag-sweden flag"></i>Svenska</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"><i class="flag-spain flag"></i>Español</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Background image -->
+    <div id="intro" class="bg-image shadow-2-strong">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <!-- <div class="container text-center h-100"> -->
+          <div class="container d-flex align-items-center justify-content-center text-center h-100">
+          <div class="mt-3 text-light">
+            <h1 style="font-family: 'Times New Roman', Times, serif">
+              Enjoy the good life.<br>
+              Enjoy a massage.
+            </h1>
+            <h4 class="mb-4" style="font-family: 'Times New Roman', Times, serif;">
+              Vi hjälper dig gärna!
+            </h4>
+            <a class="btn btn-outline-light btn-lg m-2" href="#" role="button">Pricing</a>
+            <a class="btn btn-outline-light btn-lg m-2" href="#" role="button">About me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+
+    <main class="mt-5">
+      <div class="container">
+        <!-- Container -->
+        <section>
+          <div class="row">
+            <div class="col-xl-3 col-md-6 mb-3 d-flex align-items-stretch">
+              <div class="card">
+                <img src="./resources/images/massage-therapy.jpg" alt="" height="200" style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Massageterapeutiska behandlingar</h5>
+                  <p class="card-text">
+                    Massage therapy is a soothing embrace, a journey to peace and relaxation.
+                    Every touch eases tension, reducing stress and renewing energy.
+                    It's a gift to yourself, a reminder that self-care is essential for your well-being.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-3 d-flex align-items-stretch">
+              <div class="card">
+                <img src="./resources/images/kinesio-tape.jpg" alt="" height="200">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Kinesiotape</h5>
+                  <p class="card-text">
+                    Kinesio taping is a ray of hope, a powerful tool in the journey to healing.
+                    The elastic tape provides support, comfort and reduces pain, empowering the body to heal naturally.
+                    It's a symbol of resilience, reminding you of your strength in the face of adversity.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-3 d-flex align-items-stretch">
+              <div class="card">
+                <img src="./resources/images/acupuncture.jpg" alt="" height="200">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Akupuntur</h5>
+                  <p class="card-text">
+                    Acupuncture is a journey towards balance, a path to healing and peace.
+                    With every needle placed, the body's natural healing response is activated, reducing pain and promoting relaxation.
+                    It's a reminder of the mind-body connection and the infinite power within you to heal and live a balanced life.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-3 d-flex align-items-stretch">
+              <div class="card">
+                <img src="./resources/images/fascia-abrasion.jpg" alt="" height="200">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Fascia abrasion technique</h5>
+                  <p class="card-text">
+                    Fascia abrasion is a transformative experience, freeing the body from old patterns of tension.
+                    With every stroke, renewed energy and mobility are unlocked, reminding us of our body's infinite capacity for healing and growth.
+                    It's a journey towards liberation, unlocking your full potential.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mt-4">
+          <div class="row">
+            <div class="col-md-4 d-flex align-items-stretch mb-3">
+              <div class="card" style="width: 100%;">
+                <h5 class="card-header mb-0 text-primary">
+                  <i class="fa-regular fa-credit-card"></i>
+                  Contact
+                </h5>
+                <div class="card-body pt-0">
+                  <p class="card-text">
+                    <p>
+                      <i class="fas fa-phone text-primary"></i> Phone: <span id="phoneNumber" onclick="copyToClipboard('phoneNumber')">070 726 24 95</span>
+                    </p>
+                    <p>
+                      <i class="fas fa-envelope text-primary"></i> Email: <span id="emailAddress" onclick="copyToClipboard('emailAddress')">caroline@clmassageterapi.se</span>
+                    </p>
+                    <p>
+                      <a class="btn btn-outline-primary btn-lg pt-2 pb-2 ps-3 pe-3 me-2" href="tel:0707262495" role="button"><i class="fas fa-phone"></i> Call</a>
+                      <a class="btn btn-outline-primary btn-lg pt-2 pb-2 ps-3 pe-3 me-2" href="mailto:caroline@clmassageterapi.se" role="button"><i class="fas fa-envelope"></i> Email</a>
+                      <a class="btn btn-outline-primary btn-lg pt-2 pb-2 ps-3 pe-3" href="mailto:caroline@clmassageterapi.se" role="button"><i class="fas fa-clock"></i> SMS</a>
+                    </p>
+                  </p>
+                </div>
+                <h5 class="card-header mb-0 text-primary">
+                  <i class="fa-regular fa-credit-card"></i>
+                  Pricing
+                </h5>
+                <div class="card-body pt-0">
+                  <p class="card-text">
+                    <p>
+                      <i class="fas fa-hourglass-half fa-lg text-info"></i> 30 minutes <span class="badge badge-info rounded-pill" style="font-size: 100%">530 kr</span>
+                    </p>
+                    <p>
+                      <i class="fas fa-hourglass-start fa-lg text-info"></i> 50 minutes <span class="badge badge-info rounded-pill" style="font-size: 100%">730 kr</span>
+                    </p>
+                    <div>
+                      <p class="badge badge-info rounded-pill" style="font-size: 100%">
+                        <i class="fas fa-hourglass-half fa-lg"></i> 30 minutes | 490 kr
+                      </p>
+                    </div>
+                    <div>
+                      <p class="badge badge-success rounded-pill" style="font-size: 100%">
+                        <i class="fas fa-hourglass-start fa-lg"></i> 50 minutes | 690 kr
+                      </p>
+                    </div>
+                  </p>
+                </div>
+                <h5 class="card-header text-primary">
+                  <i class="fa-regular fa-clock"></i>
+                  Opening hours
+                </h5>
+                <div class="card-body pt-0">
+                  <p class="card-text">
+                    <p>
+                      <i class="far fa-check-circle fa-lg text-success"></i> Monday - Friday <span class="badge badge-success rounded-pill" style="font-size: 100%">08:00 - 18:00</span>
+                    </p>
+                    <p>
+                      <i class="far fa-times-circle fa-lg text-danger"></i> Saturday - Sunday <span class="badge badge-danger rounded-pill" style="font-size: 100%">Closed</span>
+                    </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 d-flex align-items-stretch mb-3">
+              <div class="card" style="width: 100%;">
+                <h5 class="card-header text-primary">
+                  <i class="fa fa-map-marker-alt"></i>
+                  Location
+                </h5>
+                <div class="card-body pb-0">
+                  <p class="card-text">
+                    <i class="fas fa-map-pin text-primary"></i> Arenatorget 2, 433 33, Partille
+                    <div id="map-container-google" class="z-depth-1-half map-container" style="height: 100%;">
+                      <iframe src="https://maps.google.com/maps?q=Partille+Arena,Arenatorget+2,43333+Partille,Sweden&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                        style="border:0; height: 350px; width: 100%;" allowfullscreen></iframe>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mt-4">
+          <div class="row">
+            <div class="col-md-4 d-flex align-items-stretch mb-3">
+              <div class="card" style="width: 100%;">
+                <h5 class="card-header mb-0 text-primary">
+                  <i class="fa-regular fa-credit-card"></i>
+                  Booking
+                </h5>
+                <div class="card-body">
+                  <p class="card-text">
+                    The easiest way to book an appointment is by phone call, sms or email.
+                    I also post cancellations on my Facebook page - <a href="">CL Massage therapy</a>.
+                  </p>
+                </div>
+                <h5 class="card-header mb-0 text-primary">
+                  <i class="fa-regular fa-credit-card"></i>
+                  Booking Rules
+                </h5>
+                <div class="card-body pt-0">
+                  <p class="card-text">
+                    <ul id="bookingRules">
+                      <li>Cancellation must take place no later than 24 hours before the appointed time. If for some reason you get sick/miss or forget your booked appointment, you will be charged 100% of the booked treatment price.</li>
+                      <li>Extra important to cancel in time and stay at home now during the pandemic at the slightest symptoms, otherwise you may be refused treatment if you come anyway. Then the above rules for cancellation apply.</li>
+                  </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 d-flex align-items-stretch mb-3">
+              <div class="card" style="width: 100%;">
+                <h5 class="card-header text-primary">
+                  <i class="fa fa-map-marker-alt"></i>
+                  About me
+                </h5>
+                <div class="card-body pb-0">
+                  <p class="card-text">
+                    <img src="./resources/images/profile.png" alt="" width="250" height="250" style="float: right;">
+                    <p>
+                      Many people wonder what the difference between a masseuse and a massage therapist really is.
+                    <p style="text-align: justify; text-justify: distribute;">
+                      A massage therapy treatment differs from a "normal massage" in that I, as a therapist, examine the muscles/problem area before and after treatment. This is to try to find out where the pain/problem really comes from and if it got better after the treatment.
+                    </p>
+                    <p>
+                      I have also taken some in-depth courses in deeper massage techniques such as revolving which gives a much more profound effect.
+                    </p>
+                    <p>
+                      If you are just looking for a quiet and pleasant moment, I will of course arrange a relaxing treatment completely according to your needs!
+                    </p>
+                    <p class="text-center">
+                      <a class="btn btn-floating text-white hover-scale me-1" style="background-color: #1877F2;" href="#!" role="button">
+                        <i class="fab fa-facebook-f fa-lg"></i>
+                      </a>
+                      <a class="btn btn-floating text-white hover-scale me-1" style="background-color: #0A66C2;" href="#!" role="button">
+                        <i class="fab fa-linkedin-in fa-lg"></i>
+                      </a>
+                      <a class="btn btn-floating text-white hover-scale" style="background-color: #E4405F;" href="#!" role="button">
+                        <i class="fab fa-instagram fa-xl"></i>
+                      </a>
+                    </p>
+                  </p>
+                  <div class="mb-2" style="text-align: center; margin-top: -15px;">
+                    <img src="./resources/images/logo.png" alt="" width="200">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mt-5"></section>
+      </div>
+    </main>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+    <script>
+      function copyToClipboard(element) {
+        var copyText = document.getElementById(element);
+        var textArea = document.createElement("textarea");
+        textArea.value = copyText.textContent;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand("Copy");
+        textArea.remove();
+      }
+    </script>
+  </body>
+</html>
